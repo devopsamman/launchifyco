@@ -10,20 +10,13 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           {/* Logo and Description */}
           <div className="space-y-4">
-            <div className="flex items-center space-x-2">
-              <div className="h-8 w-8 relative">
-                <img 
-                  src="/lovable-uploads/8acfad30-aa90-4edd-b779-aafd43058584.png" 
-                  alt="Psycotik Crew Logo" 
-                  className="h-full w-full object-contain" 
-                />
-              </div>
-              <h2 className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-green-500">
-                Psycotik Crew
+            <div className="flex items-center">
+              <h2 className="text-2xl font-bold text-white font-boldonse">
+                Launchify
               </h2>
             </div>
             <p className="text-gray-300 max-w-md">
-              Professional sound and light rental service for events, concerts, and parties. Turning your events into unforgettable experiences.
+              Your trusted service partner for professional solutions. We help businesses launch and grow with our comprehensive service offerings.
             </p>
             <div className="flex space-x-4 pt-2">
               <a 
@@ -110,17 +103,17 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex items-center space-x-3 text-gray-300">
                 <Mail size={16} className="text-green-500" />
-                <span>psk-services@gmail.com</span>
+                <span>hello@launchify.com</span>
               </li>
               <li className="flex items-center space-x-3 text-gray-300">
                 <Facebook size={16} className="text-green-500" />
                 <a 
-                  href="https://www.facebook.com/psicptyk.free" 
+                  href="https://www.facebook.com/launchify" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="hover:text-green-400 transition-colors"
                 >
-                  facebook.com/psicptyk.free
+                  facebook.com/launchify
                 </a>
               </li>
             </ul>
@@ -129,7 +122,7 @@ const Footer = () => {
 
         <div className="border-t border-green-500/10 mt-12 pt-6 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm">
-            © {new Date().getFullYear()} Psycotik Crew. All rights reserved.
+            © {new Date().getFullYear()} Launchify. All rights reserved.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <a href="#" className="text-gray-400 hover:text-green-400 text-sm transition-colors">
