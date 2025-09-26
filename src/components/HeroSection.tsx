@@ -69,12 +69,15 @@ const HeroSection = () => {
                 Get Started
                 <MoveRight className="ml-2 h-5 w-5" />
               </Link>
-              <Link
-                to="/services"
-                className="bg-transparent border border-green-500 text-green-500 hover:bg-green-500/10 font-medium py-3 px-8 rounded-lg transition-all duration-300 flex items-center justify-center"
+              <a
+                href="https://wa.link/aze8dq"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-green-500 hover:bg-green-700 text-white font-medium py-3 px-8 rounded-lg transition-all duration-300 flex items-center justify-center btn-glow"
               >
-                View Pricing
-              </Link>
+                WhatsApp Support
+                <MoveRight className="ml-2 h-5 w-5" />
+              </a>
             </div>
           </div>
         </div>

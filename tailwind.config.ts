@@ -24,7 +24,9 @@ export default {
 		},
 		extend: {
 			fontFamily: {
-				sans: ['Boldonse', 'sans-serif'],
+				sans: ['Poppins', 'sans-serif'],
+				poppins: ['Poppins', 'sans-serif'],
+				urbanist: ['Urbanist', 'sans-serif'],
 				boldonse: ['Boldonse', 'sans-serif'],
 			},
 			colors: {

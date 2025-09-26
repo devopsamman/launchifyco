@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -40,14 +42,42 @@
   }
 
   body {
-    @apply bg-background text-foreground antialiased font-boldonse;
+    @apply bg-background text-foreground antialiased;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
     font-feature-settings: "ss01", "ss02", "cv01", "cv02", "cv03";
   }
 
   html {
-    @apply scroll-smooth font-boldonse;
+    @apply scroll-smooth;
+    font-family: 'Poppins', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+  }
+
+  .heading-bold {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+  }
+
+  .text-medium {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+  }
+
+  .font-poppins-bold {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+  }
+
+  .font-poppins-medium {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
   }
 }
 
@@ -141,4 +171,24 @@
 
 ::-webkit-scrollbar-thumb:hover {
   @apply bg-green-500;
+}
+
+/* WhatsApp Button Mobile Fixes */
+.whatsapp-button {
+  position: fixed !important;
+  bottom: 1rem !important;
+  right: 1rem !important;
+  z-index: 9999 !important;
+  max-width: calc(100vw - 2rem) !important;
+  min-width: 120px !important;
+}
+
+@media (max-width: 640px) {
+  .whatsapp-button {
+    bottom: 1rem !important;
+    right: 1rem !important;
+    z-index: 9999 !important;
+    max-width: calc(100vw - 2rem) !important;
+    min-width: 120px !important;
+  }
 }
